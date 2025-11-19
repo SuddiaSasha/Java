@@ -1,17 +1,65 @@
-package com.oleksandrsyddia;
+ package com.oleksandrsyddia;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+
 public class Main {
-    static void main() {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        IO.println(String.format("Hello and welcome!"));
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            IO.println("i = " + i);
+    public static void main(String[] args) {
+        Scanner scannerNum = new Scanner(System.in);
+        Calculator calculator = new Calculator();
+
+        try {
+            System.out.print("Enter first number: ");
+            double firstNum = scannerNum.nextDouble(); 
+            scannerNum.nextLine();
+
+            System.out.print("Enter operation *type only +, -, *, /, root*: ");
+            String operation = scannerNum.nextLine();
+
+            double result = 0;
+
+            if (operation.equals("root")) {
+                result = calculator.root(firstNum);
+                System.out.println("Result: " + result);
+                return;
+            }
+
+            System.out.print("Enter second number: ");
+            double secondNum = scannerNum.nextDouble();
+
+            switch (operation) {
+                case "+":
+                    result = calculator.plus(firstNum, secondNum);
+                    break;
+                case "-": 
+                    result = calculator.minus(firstNum, secondNum);
+                    break;
+                case "*":
+                    result = calculator.muliply(firstNum, secondNum);
+                    break;
+                case "/":
+                    result = calculator.divide(firstNum, secondNum);
+                    break;
+                default:
+                    System.out.println("Error: unknown operation");
+                    return;
+            }
+        System.out.print("Result: " + result);
+
+        }catch (InputMismatchException e) {
+            System.err.println("Error: you have to enter only numbers");
+        } catch (ArithmeticException e) {
+            System.err.println("Arithmetic error: " + e.getMessage());
+        } catch (InvalidInputException e) {
+            System.err.println("Input error: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println("Unexpected error: " + e.getMessage());
+        } finally {
+            System.out.println("\nEnd of program");
+            scannerNum.close();
         }
     }
-}
+}  
