@@ -40,3 +40,6 @@ lombok.jar
 
 # Вихідна директорія, створена IDE, не містить вашого коду
 out/
+pr3/pr3/target/classes/com/oleksandrsyddia/Calculator.class
+pr3/pr3/target/classes/com/oleksandrsyddia/InvalidInputException.class
+pr3/pr3/target/classes/com/oleksandrsyddia/Main.class
