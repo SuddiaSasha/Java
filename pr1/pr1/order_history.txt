@@ -1,0 +1,4 @@
+Order #1 placed at 2025-12-09 13:54:47
+Product(id=1, name=Laptop, price=19999.99, description=High-performance laptop for work and gaming, category=Category(id=1, name=Electronics))
+Total price: 19999.99
+------------------------
