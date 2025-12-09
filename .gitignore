@@ -40,3 +40,32 @@ lombok.jar
 
 # Вихідна директорія, створена IDE, не містить вашого коду
 out/
+financial-analyzer/target/classes/com/oleksandrsyddia/financialanalyzer/Main.class
+financial-analyzer/target/classes/com/oleksandrsyddia/financialanalyzer/Transaction.class
+financial-analyzer/target/classes/com/oleksandrsyddia/financialanalyzer/TransactionAnalyzer.class
+financial-analyzer/target/classes/com/oleksandrsyddia/financialanalyzer/TransactionCSVReader.class
+financial-analyzer/target/classes/com/oleksandrsyddia/financialanalyzer/TransactionReportGenerator.class
+financial-analyzer/target/test-classes/com/oleksandrsyddia/financialanalyzer/financialanalyzer/TransactionAnalyzerTest.class
+pr1/pr1/target/classes/duikt/java/com/Main.class
+pr1/pr1/target/classes/duikt/java/com/entities/Cart.class
+pr1/pr1/target/classes/duikt/java/com/entities/Category.class
+pr1/pr1/target/classes/duikt/java/com/entities/Order.class
+pr1/pr1/target/classes/duikt/java/com/entities/Product.class
+pr3/pr3/target/classes/com/oleksandrsyddia/Calculator.class
+pr3/pr3/target/classes/com/oleksandrsyddia/InvalidInputException.class
+pr3/pr3/target/classes/com/oleksandrsyddia/Main.class
+pr4/prac4/order.main/target/classes/module-info.class
+pr4/prac4/order.main/target/classes/com/example/order/main/Main.class
+pr4/prac4/order.module/target/classes/module-info.class
+pr4/prac4/order.module/target/classes/com/example/order/model/Clothing$ClothingBuilder.class
+pr4/prac4/order.module/target/classes/com/example/order/model/Clothing$ClothingBuilderImpl.class
+pr4/prac4/order.module/target/classes/com/example/order/model/Clothing.class
+pr4/prac4/order.module/target/classes/com/example/order/model/Electronics$ElectronicsBuilder.class
+pr4/prac4/order.module/target/classes/com/example/order/model/Electronics$ElectronicsBuilderImpl.class
+pr4/prac4/order.module/target/classes/com/example/order/model/Electronics.class
+pr4/prac4/order.module/target/classes/com/example/order/model/Product$ProductBuilder.class
+pr4/prac4/order.module/target/classes/com/example/order/model/Product.class
+pr4/prac4/order.processing/target/classes/module-info.class
+pr4/prac4/order.processing/target/classes/com/example/order/processing/OrderProcessor.class
+pr4/prac4/order.storage/target/classes/module-info.class
+pr4/prac4/order.storage/target/classes/com/example/order/storage/OrderRepository.class
