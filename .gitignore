@@ -43,3 +43,14 @@ out/
 pr3/pr3/target/classes/com/oleksandrsyddia/Calculator.class
 pr3/pr3/target/classes/com/oleksandrsyddia/InvalidInputException.class
 pr3/pr3/target/classes/com/oleksandrsyddia/Main.class
+financial-analyzer/target/classes/com/oleksandrsyddia/financialanalyzer/Main.class
+financial-analyzer/target/classes/com/oleksandrsyddia/financialanalyzer/Transaction.class
+financial-analyzer/target/classes/com/oleksandrsyddia/financialanalyzer/TransactionAnalyzer.class
+financial-analyzer/target/classes/com/oleksandrsyddia/financialanalyzer/TransactionCSVReader.class
+financial-analyzer/target/classes/com/oleksandrsyddia/financialanalyzer/TransactionReportGenerator.class
+financial-analyzer/target/test-classes/com/oleksandrsyddia/financialanalyzer/financialanalyzer/TransactionAnalyzerTest.class
+pr1/pr1/target/classes/duikt/java/com/Main.class
+pr1/pr1/target/classes/duikt/java/com/entities/Cart.class
+pr1/pr1/target/classes/duikt/java/com/entities/Category.class
+pr1/pr1/target/classes/duikt/java/com/entities/Order.class
+pr1/pr1/target/classes/duikt/java/com/entities/Product.class
